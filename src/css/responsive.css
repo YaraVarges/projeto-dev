@@ -1,0 +1,16 @@
+@media (max-width: 1110px) {
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        padding: 50px 0;
+        
+    }
+
+    
+
+    .home .informacoes {
+        background-color: rgba(157, 194, 194, 0.356);
+        
+    }
+}

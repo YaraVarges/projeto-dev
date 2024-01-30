@@ -58,6 +58,7 @@ body {
    text-decoration: underline;
 
 }
+/*--------------------------------------------------------*/
 
 /*Home*/
 .home {
@@ -112,6 +113,7 @@ body {
     background-color: #9D5A4D;
 }
 
+/*--------------------------------------------------------*/
 
 /*Section Comprar*/
 .comprar {
@@ -134,7 +136,7 @@ body {
     width: 400px;
 }
 
-.comprar .informacoes {
+.comprar .caracteristicas {
     font-family: 'Fahkwang', sans-serif;
     justify-content: center;
     display: flex;
@@ -146,7 +148,7 @@ body {
 
 }
 
-.comprar ul li {
+.comprar .caracteristicas li {
     display: flex;
     flex-direction: row;
     color: #000000;
@@ -167,6 +169,7 @@ body {
     height: 30px;
     width: 30%;
     line-height: 1.9;
+    font-size: 15px;
     text-transform: uppercase;
     color: #9D5A4D;
     font-weight: 500;
@@ -187,6 +190,7 @@ body {
     padding: 20px;
 }
 
+/*---------------------Footer----------------*/
 .footer {
     bottom: 0;
     background-color: #E6DAD1;

@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Make BB - Cosméticos</title>
     
+    <!--CSS-->
+    <link rel="stylesheet" href="src/css/main.css">
 </head>
 <body>
     <header class="cabecalho">
         
         <div class="logo">
-            <img src="src/images/logobb.svg" alt="Logo Make BB">
-            <hr>
-            <img src="src/images/marca.svg" alt="Logo Make BB">
+            <img src="src/images/logo.png" alt="Logo Make BB">
+            <h1>My Make BB</h1>
         </div>
         <nav>
             <ul class="menu">
@@ -32,12 +33,12 @@
 
 
     <main class="home" id="home">
-        <img src="src/images/bg-main.png" alt="Mulher passando um produto no rosto e outra com o ombro com um creme por cima.">
+        <img class="imagem-fundo" src="src/images/bg-main.png" alt="Mulher passando um produto no rosto e outra com o ombro com um creme por cima.">
 
         <div class="informacoes">
-            <h2>Em breve</h2>
-            <p>Estamos lançando nossa nova linha de cuidados com a pele: Ozonyhan</p>
-            <a class="button-comprar" href="#comprar">PRÉ-VENDA</a>
+            <h2>Em <br>breve</h2>
+            <p>Estamos lançando nossa nova linha de cuidados <br>com a pele: Ozonyhan</p>
+            <a class="button-comprar" href="#comprar">Pré-Venda</a>
         </div>
     </main>
 
@@ -50,39 +51,31 @@
         </div>
 
         <div>
-            <ul class="plataformas">
-                <li>
-                    <img src="src/images/logo-ps4.svg" alt="">
-                    Extratos botânicos</li>
-                <li>
-                    <img src="src/images/logo-ps4.svg" alt="">
-                    Pura água termal</li>
-                <li>
-                    <img src="src/images/logo-ps4.svg" alt="">
-                    Enriquecido com vitaminas</li>
+            <ul class="informacoes">
+                <li>Extratos botânicos</li>
+                <li>Pura água termal</li>
+                <li>Enriquecido com vitaminas</li>
             </ul>
         </div>
         
-        <button>
-            Selecione a plataforma
-            <ul class="plataformas">
-                <li>
-                    <img src="src/images/logo-ps4.svg" alt="">
-                    Extratos botânicos</li>
-                <li>
-                    <img src="src/images/logo-ps4.svg" alt="">
-                    Pura água termal</li>
-                <li>
-                    <img src="src/images/logo-ps4.svg" alt="">
-                    Enriquecido com vitaminas</li>
-            </ul>
-        </button>
+        <div>
+            <button class="button-pele">
+                Selecione seu tipo de pele
+                <ul class="tipos-pele">
+                    <li>Pele Seca</li>
+                    <li>Pele Oleosa</li>
+                    <li>Pele Mista</li>
+                    <li>Pele Clara</li>
+                </ul>
+            </button>
+        </div>
+        
     </section>
 
 
 
-    <footer>
-
+    <footer class="footer">
+    FOOTER
     </footer>
 </body>
 </html>

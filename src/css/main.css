@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@400;500&display=swap');
+
+/*Resetando estilos padrões de links, listas, margens*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*--------------------------------------------------------*/
+
+body {
+    background-color: #E6DAD1;
+    color: #9D5A4D;
+}
+
+/*Header*/
+.cabecalho {
+    height: 80px;
+    background-color: #9D5A4D;
+    color: #E6DAD1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid #E6DAD1;
+    font-family: 'Fahkwang', sans-serif;
+}
+
+.cabecalho .logo {
+    display: flex;
+    gap: 5px;
+}
+
+.cabecalho .logo h1 {
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho .menu li a {
+    padding: 30px;
+}
+
+.cabecalho .menu li a:hover {
+   text-decoration: underline;
+
+}
+
+/*Home*/
+.home {
+    background-color: aqua;
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px);
+}
+
+.home .imagem-fundo {
+    width: 100%;
+    object-fit: cover;
+}
+
+.home .informacoes {
+    position: absolute;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 80px 80px 80px 190px;
+}
+
+.home .informacoes h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    
+}
+
+.home .informacoes p {
+    text-align: center;
+    font-family: 'Fahkwang', sans-serif;
+}
+
+.button-comprar {
+    text-align: center;
+    background-color: #F6F1EE;
+    border-radius: 20px;
+    height: 30px;
+    width: 50%;
+    line-height: 1.9;
+    text-transform: uppercase;
+    font-family: 'Fahkwang', sans-serif;
+}
+
+.home .button-comprar:hover {
+    color: #F6F1EE;
+    background-color: #9D5A4D;
+}
+
+
+/*Section Comprar*/
+.comprar {
+    background-color: #BFCBD8;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.comprar .titulo {
+    color: #9D5A4D;
+    font-family: 'Fahkwang', sans-serif;
+    font-weight: 100;
+    padding-bottom: 50px;
+}
+
+
+.comprar img {
+    width: 400px;
+}
+
+.comprar .informacoes {
+    font-family: 'Fahkwang', sans-serif;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: #F6F1EE;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+
+}
+
+.comprar ul li {
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+}
+
+
+.comprar ul li::before {
+    content: " ★ ";
+    margin-right: 30px;
+    color: #9D5A4D;
+}
+
+.button-pele {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #F6F1EE;
+    border: 1px solid #9D5A4D;
+    height: 30px;
+    width: 30%;
+    line-height: 1.9;
+    text-transform: uppercase;
+    color: #9D5A4D;
+    font-weight: 500;
+    font-family: 'Fahkwang', sans-serif;
+}
+
+.comprar .tipos-pele {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all .3s ease-in;
+    display: none;
+    opacity: 0;
+}
+
+.button-pele  li{
+    padding: 20px;
+}
+
+.footer {
+    bottom: 0;
+    background-color: #E6DAD1;
+    height: 40px;
+    width: 100%;
+}

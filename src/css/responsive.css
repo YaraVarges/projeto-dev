@@ -48,3 +48,48 @@
     }
     
 }
+
+@media (max-width: 360px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .cabecalho {
+        height: 100px;
+        width: 100%;
+        background-color: #9D5A4D;
+        color: #E6DAD1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecalho .logo h1 {
+        font-size: 20px;
+    }
+
+    .home .informacoes p {
+        text-align: center;
+    }
+        
+    
+   
+    .cabecalho .logo {
+        align-items: center;
+        margin-top: -50px;
+    }
+
+    .cabecalho .menu {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: 13px;
+        text-align: center;
+
+    }
+
+
+    .cabecalho .menu li a {
+        padding: 10px;
+    }
+}

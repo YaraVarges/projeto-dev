@@ -5,9 +5,7 @@
 /*iPads, tablets*/
 @media (max-width: 481px) {
     .cabecalho {
-        height: 80px;
-        background-color: #9D5A4D;
-        color: #E6DAD1;
+        
         display: flex;
         flex-direction: column;
         padding: 0;
@@ -15,12 +13,12 @@
     .cabecalho .logo {
         margin-left: 0;
         padding-bottom: 60px;
-        
     }
 
     .cabecalho .logo h1{
         font-size: 17px;
     }
+
     .cabecalho .menu {
         display: flex;
         gap: 12px;
@@ -28,18 +26,87 @@
         justify-content: center;
         text-align: center;
         margin-top: -50px;
-         
     }
 
     .cabecalho .menu li a {
         padding: 0 0 0 10px;
         font-size: 14px;
     }
+
+    .home .imagem-fundo {
+        width: 100%;
+        object-fit: scale-down;
+    }
+
+    .home .informacoes {
+        padding: 10px 10px 10px 10px;
+        justify-content: flex-start;
+    }
+
+    .home .informacoes h2 {
+        margin: 20px 0 0 10px;
+    }
+
+    .home .informacoes p, .btn-comprar {
+        margin: 0 50px 0 20px;
+    }
+    
+    .comprar img {
+        width: 250px;
+    }
+    
+    .comprar .caracteristicas {
+        gap: 1px;
+        padding: 0px;
+        margin: 30px 0 30px 0;
+    }
+
+    .comprar .caracteristicas li {
+        font-size: 13px;
+        flex-direction: column;
+    }
+
+    .comprar .caracteristicas li::before {
+        margin-right: 0px;
+    }
+
+    .btn-pele {
+        width: 90%;
+    }
+   
+    .comprar .btn-pele .tipos.ativo{
+        font-size: 12px;
+    }
 }
 
 /*telas pequenas, laptops*/
 @media (max-width: 769px) {
+    .cabecalho {
+        
+        padding: 0;
+    }
+    .cabecalho .logo {
+        margin-left: 20px;
+        padding-bottom: 10px;
+    }
 
+    .cabecalho .logo h1{
+       
+    }
+
+    .cabecalho .menu {
+        display: flex;
+        margin-left: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+    }
+
+    .cabecalho .menu li a {
+        padding: 0 0 0 10px;
+        font-size: 14px;
+    }
    
 }
 

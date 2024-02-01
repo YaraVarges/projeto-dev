@@ -1,9 +1,4 @@
-/*dispositivos móveis*/
-@media (max-width: 320px) {
-}
-
-/*iPads, tablets*/
-@media (max-width: 481px) {
+@media (min-width: 120px) and (max-width: 481px) {
     .cabecalho {
         
         display: flex;
@@ -79,8 +74,7 @@
     }
 }
 
-/*telas pequenas, laptops*/
-@media (min-width: 768px) {
+@media (min-width: 482px) and (max-width:  1023px){
     .cabecalho {
         display: flex;
         justify-content: space-around;
@@ -126,16 +120,4 @@
     .btn-pele {
         width: 40%;
     }
- 
 }
-
-/*desktops, telas grandes*/
-@media (max-width: 1025px) {
-   
-}
-
-/* telas muito grandes, TVs*/
-@media (max-width: 1201px) {
-
-}
-

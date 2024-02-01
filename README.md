@@ -27,5 +27,6 @@ Distribuído sob a [Licença MIT](https://opensource.org/licenses/MIT).
 Para dúvidas ou feedback:
 
 - Email: varges98@gmail.com
+- Portfólio: https://yaravarges.github.io/portifolioYara
 - LinkedIn: [Yara Varges](https://www.linkedin.com/in/yara-varges-523887144/)
 

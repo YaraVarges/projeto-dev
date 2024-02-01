@@ -15,24 +15,32 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+/*--------------------------------------------------------*/
+:root {
+    --font-primary: 'Fahkwang', sans-serif;
+    --color-default: #E6DAD1;
+    --color-primary: #9D5A4D;
+    --color-secondary: #F6F1EE;
+  }
 /*--------------------------------------------------------*/
 
 body {
-    background-color: #E6DAD1;
-    color: #9D5A4D;
+    background-color: var(--color-default);
+    color: var(--color-primary);
 }
 
 /*Header*/
 .cabecalho {
     height: 80px;
-    background-color: #9D5A4D;
-    color: #E6DAD1;
+    background-color: var(--color-primary);
+    color: var(--color-default);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 80px;
-    border-bottom: 1px solid #E6DAD1;
-    font-family: 'Fahkwang', sans-serif;
+    border-bottom: 1px solid var(--color-default);
+    font-family: var(--font-primary);
 }
 
 .cabecalho .logo {
@@ -93,23 +101,23 @@ body {
 
 .home .informacoes p {
     text-align: center;
-    font-family: 'Fahkwang', sans-serif;
+    font-family: var(--font-primary);
 }
 
 .btn-comprar {
     text-align: center;
-    background-color: #F6F1EE;
+    background-color: var(--color-secondary);
     border-radius: 20px;
     height: 30px;
     width: 50%;
     line-height: 1.9;
     text-transform: uppercase;
-    font-family: 'Fahkwang', sans-serif;
+    font-family: var(--font-primary);
 }
 
 .home .btn-comprar:hover {
-    color: #F6F1EE;
-    background-color: #9D5A4D;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
 }
 
 /*--------------------------------------------------------*/
@@ -124,8 +132,8 @@ body {
 }
 
 .comprar .titulo {
-    color: #9D5A4D;
-    font-family: 'Fahkwang', sans-serif;
+    color: var(--color-primary);
+    font-family: var(--font-primary);
     font-weight: 100;
     padding-bottom: 50px;
 }
@@ -136,12 +144,12 @@ body {
 }
 
 .comprar .caracteristicas {
-    font-family: 'Fahkwang', sans-serif;
+    font-family: var(--font-primary);
     justify-content: center;
     display: flex;
     flex-direction: row;
     gap: 30px;
-    color: #F6F1EE;
+    color: var(--color-secondary);
     padding: 20px;
     margin: 20px 0 20px 0;
 
@@ -157,22 +165,22 @@ body {
 .comprar .caracteristicas li::before {
     content: " ★ ";
     margin-right: 30px;
-    color: #9D5A4D;
+    color: var(--color-primary);
 }
 
 .btn-pele {
     margin-top: 20px;
     text-align: center;
-    background-color: #F6F1EE;
-    border: 1px solid #9D5A4D;
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-primary);
     height: 30px;
     width: 30%;
     line-height: 1.9;
     font-size: 15px;
     text-transform: uppercase;
-    color: #9D5A4D;
+    color: var(--color-primary);
     font-weight: 500;
-    font-family: 'Fahkwang', sans-serif;
+    font-family: var(--font-primary);
 }
 
 
@@ -205,7 +213,7 @@ body {
 /*---------------------Footer----------------*/
 .footer {
     bottom: 0;
-    background-color: #E6DAD1;
+    background-color: var(--color-default);
     height: 40px;
     width: 100%;
 }

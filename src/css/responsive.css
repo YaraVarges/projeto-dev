@@ -80,18 +80,15 @@
 }
 
 /*telas pequenas, laptops*/
-@media (max-width: 769px) {
+@media (min-width: 768px) {
     .cabecalho {
-        
+        display: flex;
+        justify-content: space-around;
         padding: 0;
     }
     .cabecalho .logo {
         margin-left: 20px;
         padding-bottom: 10px;
-    }
-
-    .cabecalho .logo h1{
-       
     }
 
     .cabecalho .menu {
@@ -105,9 +102,31 @@
 
     .cabecalho .menu li a {
         padding: 0 0 0 10px;
-        font-size: 14px;
+        font-size: 16px;
     }
-   
+
+    .home .imagem-fundo {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .home .informacoes {
+        padding: 120px 10px 10px 70px;
+        justify-content: flex-start;
+    }
+
+    .home .informacoes h2 {
+        font-size: 50px;
+    }
+
+    .home .informacoes p {
+        font-size: 20px;
+    }
+
+    .btn-pele {
+        width: 40%;
+    }
+ 
 }
 
 /*desktops, telas grandes*/

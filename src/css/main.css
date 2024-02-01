@@ -216,4 +216,7 @@ body {
     background-color: var(--color-default);
     height: 40px;
     width: 100%;
+    text-align: center;
+    padding: 20px 0 35px 0; 
 }
+
